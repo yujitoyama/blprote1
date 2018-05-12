@@ -9,6 +9,7 @@ def hello():
     name = "yuji"
     return render_template('top.html', title='TOP画面', name=name)
 
+#
 @app.route('/test', methods=['GET', 'POST'])
 def test():
     if request.method == 'GET':
