@@ -1,12 +1,12 @@
 {% extends "layout.html" %}
 {% block content %}
-<form action="/test" method="post">
+<form action="/oview" method="POST">
     <p>リスク種別</p>
     <p>
         <select name="risks">
-        <option value="サンプル1">a</option>
-        <option value="サンプル2">b</option>
-        <option value="サンプル3">c</option>
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
         </select>
     </p>
     <button name="risk_value" value="risk_value">送信</button>
